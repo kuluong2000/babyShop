@@ -12,10 +12,12 @@
     <link rel="stylesheet" href="./Assets/css/style.css" />
     <link rel="stylesheet" href="./Assets/css/responsive.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
     <title>Document</title>
   </head>
   <body>
     <div class="progress"></div>
+    <div class="scroll-top"><i class="fas fa-arrow-up"></i></div>
     <header class="header">
       <div class="container">
         <div class="row">
@@ -260,11 +262,11 @@
       <section class="shope">
         <div class="container">
           <div class="row">
-            <div class="box">
+            <div class="box" data-aos="zoom-in-up">
               <h2 class="box-title">Our Shope</h2>
               <p class="box-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
             </div>
-            <div class="shope-content">
+            <div class="shope-content" data-aos="fade-up" data-aos-duration="2000">
               <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                 <li class="nav-item" role="presentation">
                   <button class="nav-link" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Hots</button>
@@ -1464,7 +1466,7 @@
           </div>
         </div>
       </section>
-      <section class="about">
+      <section class="about" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
         <div class="container">
           <div class="row">
             <div class="about-main">
@@ -1538,7 +1540,7 @@
           </div>
         </div>
       </section>
-      <section class="contact">
+      <section class="contact" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
         <div class="container">
           <div class="row">
             <div class="contact-main">
@@ -1561,9 +1563,9 @@
           </div>
         </div>
       </section>
-      <section class="map"></section>
+      <section class="map" data-aos="fade-up" data-aos-anchor-placement="top-bottom"></section>
     </main>
-    <footer class="footer">
+    <footer class="footer" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <div class="container">
         <div class="row">
           <div class="footer-main">
@@ -1642,7 +1644,7 @@
     <script src="./libs/Js/wow.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script src="./Assets/Js/main.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./Assets/Js/main.js"></script>
   </body>
 </html>

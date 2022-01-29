@@ -17,6 +17,32 @@ body {
   z-index: 99999;
 }
 
+.scroll-top {
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  right: 10px;
+  bottom: 20px;
+  z-index: 999999;
+  background-color: #ff5f6d;
+  border-radius: 100%;
+  transition: all 0.25s linear;
+  transform: translateX(150%);
+}
+.scroll-top.active {
+  transform: translateX(0%);
+}
+.scroll-top i {
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  z-index: 9999999999;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .line-effect {
   width: 0px;
   background: linear-gradient(to right, rgba(255, 95, 109, 0.7), #ffc371);
@@ -167,16 +193,16 @@ body {
 }
 .banner-content .slick-prev:before {
   opacity: 1;
-  content: url(/Assets/image/arrowLeft.png);
+  content: url(../image/arrowLeft.png);
 }
 .banner-content .slick-prev::after {
-  content: url(/Assets/image/Rectangle.png);
+  content: url(../image/Rectangle.png);
   position: absolute;
   left: 60px;
   cursor: default;
 }
 .banner-content .slick-next::before {
-  content: url(/Assets/image/arrowRight.png);
+  content: url(../image/arrowRight.png);
   opacity: 1;
 }
 .banner-content .slick-prev,
@@ -263,7 +289,7 @@ body {
   position: relative;
 }
 .story-image::before {
-  content: url(/Assets/image/ourStory_halfCircle.jpg);
+  content: url(../image/ourStory_halfCircle.jpg);
   left: 100%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -271,7 +297,7 @@ body {
   position: absolute;
 }
 .story-image::after {
-  content: url(/Assets/image/ourStory_Circle.jpg);
+  content: url(../image/ourStory_Circle.jpg);
   right: -70px;
   top: 70px;
   z-index: -1;
@@ -406,10 +432,10 @@ body {
 }
 .sale .slick-prev:before {
   opacity: 1;
-  content: url(/Assets/image/arrowLeft.png);
+  content: url(../image/arrowLeft.png);
 }
 .sale .slick-next::before {
-  content: url(/Assets/image/arrowRight.png);
+  content: url(../image/arrowRight.png);
   opacity: 1;
 }
 .sale .slick-prev,
@@ -478,11 +504,11 @@ body {
 }
 .shope-content .slick-prev:before {
   opacity: 1;
-  content: url(/Assets/image/arrowLeft.png);
+  content: url(../image/arrowLeft.png);
   filter: invert(0.5) sepia(1) hue-rotate(-51deg) saturate(4) brightness(1);
 }
 .shope-content .slick-next::before {
-  content: url(/Assets/image/arrowRight.png);
+  content: url(../image/arrowRight.png);
   opacity: 1;
   filter: invert(0.5) sepia(1) hue-rotate(-51deg) saturate(4) brightness(1);
 }
@@ -865,7 +891,7 @@ body {
 }
 
 .map {
-  background: url(/Assets/image/maps.jpg) no-repeat center/cover;
+  background: url(../image/maps.jpg) no-repeat center/cover;
   min-height: 305px;
   width: 100%;
 }
@@ -873,7 +899,7 @@ body {
 .footer {
   min-height: 290px;
   width: 100%;
-  background: url(/Assets/image/footer_imgBaby.png) no-repeat center/cover;
+  background: url(../image/footer_imgBaby.png) no-repeat center/cover;
 }
 .footer-main {
   padding: 0 70px;

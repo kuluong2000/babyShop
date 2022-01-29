@@ -40,14 +40,17 @@ window.addEventListener("load", function () {
     variableWidth: true,
   });
   const header = document.querySelector(".header");
+  const pageTop = document.querySelector(".scroll-top");
   window.addEventListener("scroll", handleScroll);
   function handleScroll() {
     let scrollTop = window.scrollY;
     if (scrollTop > 70) {
       header.classList.add("active-fixed");
+      pageTop.classList.add("active");
       // document.body.style.paddingTop = `70px`;
     } else {
       header.classList.remove("active-fixed");
+      pageTop.classList.remove("active");
       // document.body.style.paddingTop = `0`;
     }
   }

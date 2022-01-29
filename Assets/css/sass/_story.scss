@@ -31,7 +31,7 @@
     &-image{
         position: relative;
         &::before{
-            content: url(../Assets/image/ourStory_halfCircle.jpg);
+            content: url(../image/ourStory_halfCircle.jpg);
             left:100%;
             top: 50%;
             transform: translate(-50%,-50%);
@@ -39,7 +39,7 @@
             position: absolute;
         }
         &::after{
-            content: url(../Assets/image/ourStory_Circle.jpg);
+            content: url(../image/ourStory_Circle.jpg);
             right: -70px;
             top:70px;
             

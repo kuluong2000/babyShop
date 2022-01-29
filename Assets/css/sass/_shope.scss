@@ -26,12 +26,12 @@
 	}
 	.slick-prev:before {
 	opacity: 1;
-	content: url(../Assets/image/arrowLeft.png);
+	content: url(../image/arrowLeft.png);
 	filter: invert(0.5) sepia(1) hue-rotate(-51deg) saturate(4) brightness(1);
 
 }
 .slick-next::before { 
-	content: url(../Assets/image/arrowRight.png);
+	content: url(../image/arrowRight.png);
 	opacity: 1;
 	filter: invert(0.5) sepia(1) hue-rotate(-51deg) saturate(4) brightness(1);
 }
