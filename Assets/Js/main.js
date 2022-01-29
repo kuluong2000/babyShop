@@ -41,6 +41,9 @@ window.addEventListener("load", function () {
   });
   const header = document.querySelector(".header");
   const pageTop = document.querySelector(".scroll-top");
+  pageTop.addEventListener("click", () => {
+    window.scrollTo(0, 0);
+  });
   window.addEventListener("scroll", handleScroll);
   function handleScroll() {
     let scrollTop = window.scrollY;
