@@ -1,0 +1,66 @@
+.header {
+    position: absolute;
+    width: 100%;
+    height: 85px;
+    z-index: 9999 !important;
+    filter: drop-shadow(0px -2px 5px #A69A94);
+    transition: all 0.25s linear;
+    // filter: drop-shadow(-1px 3px 10px #ebe4e4);
+    &::after{
+      content: '';
+      position: absolute;
+      clip-path: ellipse(90% 100% at 50% 0%);
+      background-color: white;
+      width: 100%;
+      height: 100%;
+      
+      top: 0;
+      left: 0;
+      z-index: 1;
+      
+    }
+    @keyframes anmscroll {
+      from{
+        opacity: 0;
+      }
+      to{
+        opacity: 1;
+      }
+    }
+    &.active-fixed{
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 999;
+      animation: anmscroll forwards 0.5s ;
+    }
+  &-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 70px  0 60px;
+}
+  &-logo{
+position:relative;
+    z-index: 2;
+}
+  &-menu{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    position:relative;
+    z-index: 2;
+
+}
+  &-item{
+
+}
+  &-link{
+    text-decoration: none;
+    color: $color-text;
+    &:hover{
+        color: $primary-color;
+    }
+}
+}

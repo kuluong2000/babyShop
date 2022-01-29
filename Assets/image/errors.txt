@@ -1,0 +1,14 @@
+[9/18/2021, 9:13:00 PM] layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
+[9/18/2021, 9:13:00 PM] layer "+ copy 2": Expected Either a default asset specification or a layer asset specification but "+" found.
+[9/18/2021, 9:13:00 PM] layer "Mail address: info@acworks.co.jp": Unsupported extension: jp
+[9/18/2021, 9:13:00 PM] layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
+[9/18/2021, 9:13:00 PM] layer "Button +": Expected end of input but "+" found.
+[9/18/2021, 9:13:00 PM] layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
+[9/18/2021, 9:13:00 PM] layer "Button +": Expected end of input but "+" found.
+[9/18/2021, 9:13:00 PM] layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
+[9/18/2021, 9:13:00 PM] layer "Button +": Expected end of input but "+" found.
+[9/18/2021, 9:13:00 PM] layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
+[9/18/2021, 9:13:00 PM] layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
+[9/18/2021, 9:13:00 PM] layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
+[9/18/2021, 9:13:00 PM] layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
+[9/18/2021, 9:13:00 PM] layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
